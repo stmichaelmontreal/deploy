@@ -1,3 +1,4 @@
+#!/bin/bash
 git clone https://github.com/stmichaelmontreal/deploy.git
 sudo systemctl stop nginx
 sudo rm -rf /var/www/html/*
